@@ -21,18 +21,31 @@ git add -A
 git commit -m 'deploy master'
 git push -f https://github.com/Sogrey/mkdocs-template.git master
 
-# echo -e ""
-# echo -e "\033[32;40m [2/3] \033[0m Building static files"
-# echo -e ""
+echo -e ""
+echo -e "\033[32;40m [2/3] \033[0m Building static files"
+echo -e ""
 
-# # 编译生成静态文件
-# mkdocs build
+# 编译生成静态文件
+mkdocs build
+
 
 echo -e ""
 echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"
 echo -e ""
+# 进入生成的文件夹
+cd site
 
-mkdocs gh-deploy
+git init
+git add -A
+git commit -m 'deploy gh-pages'
+
+git push -f https://github.com/Sogrey/mkdocs-template.git master:gh-pages
+
+# echo -e ""
+# echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"
+# echo -e ""
+
+# mkdocs gh-deploy
 
 echo -e ""
 echo -e "\033[32;40m [Done] \033[0m"
