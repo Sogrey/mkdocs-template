@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-# ç¡®ä¿è„šæœ¬æŠ›å‡ºé‡åˆ°çš„é”™è¯¯
+# È·±£½Å±¾Å×³öÓöµ½µÄ´íÎó
 set -e
 
 echo -e '\033[32;40m
@@ -19,6 +19,7 @@ echo -e ""
 git init
 git add -A
 git commit -m 'deploy master'
+git push -f https://github.com/Sogrey/mkdocs-template.git master
 
 echo -e ""
 echo -e "\033[32;40m [2/2] \033[0m commit 2 gh-pages branch"
