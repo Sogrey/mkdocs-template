@@ -41,6 +41,8 @@ git commit -m 'deploy gh-pages'
 
 git push -f https://github.com/Sogrey/mkdocs-template.git master:gh-pages
 
+cd ..
+
 # echo -e ""
 # echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"
 # echo -e ""
