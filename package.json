@@ -1,0 +1,27 @@
+{
+  "name": "mkdocs-template",
+  "version": "1.0.0",
+  "description": "mkdocs 模板项目",
+  "main": "index.js",
+  "scripts": {
+    "init": "pip install mkdocs-material",
+    "start": "mkdocs serve",
+    "build": "mkdocs build",
+    "gh-deploy": "mkdocs gh-deploy",
+    "deploy": "bash deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/mkdocs-template.git"
+  },
+  "keywords": [
+    "mkdocs"
+  ],
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/mkdocs-template/issues"
+  },
+  "homepage": "https://github.com/Sogrey/mkdocs-template#readme"
+}

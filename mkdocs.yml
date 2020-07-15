@@ -1,0 +1,46 @@
+# Project information
+site_name: The template for MkDocs
+site_description: A Material Design theme for MkDocs
+site_author: Sogrey
+site_url: https://Sogrey.github.io/mkdocs-template/
+
+# Repository
+repo_name: Sogrey/mkdocs-template
+repo_url: https://github.com/Sogrey/mkdocs-template
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2020 Sogrey
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/squidfunk
+
+# Google Analytics
+# google_analytics:
+#   - UA-XXXXXXXX-X
+#   - auto
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
