@@ -6,7 +6,7 @@
   "scripts": {
     "init": "pip install mkdocs-material",
     "start": "mkdocs serve",
-    "build": "mkdocs build",
+    "build": "mkdocs build --clean",
     "gh-deploy": "mkdocs gh-deploy",
     "deploy": "bash deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"

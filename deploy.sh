@@ -26,8 +26,7 @@ echo -e "\033[32;40m [2/3] \033[0m Building static files"
 echo -e ""
 
 # 编译生成静态文件
-mkdocs build
-
+mkdocs build --clean
 
 echo -e ""
 echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"

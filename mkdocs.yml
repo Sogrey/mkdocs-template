@@ -21,16 +21,20 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+    
+nav:
+    - Home: index.md
+    - About: about.md
 
 # Extras
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/squidfunk
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/squidfunk
+      link: https://github.com/Sogrey/mkdocs-template
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/squidfunk
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://linkedin.com/in/squidfunk
 
 # Google Analytics
 # google_analytics:
